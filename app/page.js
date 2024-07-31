@@ -17,9 +17,11 @@ export default function Home() {
   return (
     <>
       <div>
+        <h1>welcome to the world of developer</h1>
         <h1>{t("name")}</h1>
         <h1>{t("email")}</h1>
         <h1>{t("number")}</h1>
+        
         <button
           className="bg-slate-950 text-center text-slate-100"
           onClick={changelng}
