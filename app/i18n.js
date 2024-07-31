@@ -3,8 +3,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import eng_lang from "../locales/eng/eng_lang.json";
-import urdu_lang from "../locales/urdu/urdu_lang.json"; // Adjust path as needed
+import eng_lang from "../Locales/eng/eng_lang.json";
+import urdu_lang from "../Locales/urdu/urdu_lang.json"; // Adjust path as needed
 
 const resources = {
   en: {
